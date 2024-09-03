@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skater Annual Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.g34LI64H7uQ9-DWEe_D-7QHaHa&pid=Api&P=0&h=220" alt="India Skate Logo">
+            <h1>Skaters Annual Registration Form</h1>
+        </div>
+
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="fullName">Full Name (As per Aadhaar):</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Type Skater Name here..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="fatherName">Father Name:</label>
+                <input type="text" id="fatherName" name="fatherName">
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile (Skater / Parent's mobile number as per Aadhaar):</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmEmail">Retype Email ID (to avoid mistake):</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bloodGroup">Blood Group:</label>
+                <select id="bloodGroup" name="bloodGroup" required>
+                    <option value="" disabled selected>Select your Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="discipline">Discipline:</label>
+                <select id="discipline" name="discipline">
+                    <option value="" disabled selected>Select your Discipline</option>
+                    <option value="speed-quad">SPEED QUAD</option>
+                    <option value="speed-inline">SPEED INLINE</option>
+                    <option value="roller-hockey">ROLLER HOCKEY</option>
+                    <option value="inline-hockey">INLINE HOCKEY</option>
+                    <option value="artistic">ARTISTIC</option>
+                    <option value="inline-freestyle">INLINE FREESTYLE</option>
+                    <option value="inline-alpine">INLINE ALPINE</option>
+                    <option value="inline-downhill">INLINE DOWNHILL</option>
+                    <option value="roller-freestyle">ROLLER FREESTYLE</option>
+                    <option value="roller-derby">ROLLER DERBY</option>
+                    <option value="skateboarding">SKATEBOARDING</option>
+                    <option value="roller-scooter">ROLLER SCOOTER</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="stateUT">Studying & Representing State / U.T.:</label>
+                <select id="stateUT" name="stateUT" required>
+                    <option value="" disabled selected>Select your State/UT</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Ladakh">Ladakh</option>
+                </select>
+            </div>
+
+            
+
+            <label for="idProof">ID Proof for Age Verification:</label>
+            <input type="file" id="idProof" name="idProof" required><br><br>
+
+            <div class="message-container">
+
+                <a href="submit.html" class="button">AGREE TO ABIDE BY ROFI RULES & SUBMIT</a>
+            </div>
+        </form>
+    
+        </div>
+    </body>
+    </html>
+
+
+
+
+
+
